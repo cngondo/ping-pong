@@ -33,4 +33,16 @@ public class PingPongTest {
     expectedOutput.add("ping");
     assertEquals(expectedOutput, testPingPong.runPingPong(3));
   }
+
+  @Test
+  public void runPingPong_replaceMultiplesOf5_ArrayList() {
+    PingPong testPingPong = new PingPong();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add(1);
+    expectedOutput.add(2);
+    expectedOutput.add("ping");
+    expectedOutput.add(4);
+    expectedOutput.add("pong");
+    assertEquals(expectedOutput, testPingPong.runPingPong(5));
+  }
 }
