@@ -20,4 +20,4 @@ Gradle 3.0 (Groovy 2.4.7)
 JUnit 4
 
 ## License
-[MIT](../blob/master/LICENSE)
+[MIT](LICENSE)
