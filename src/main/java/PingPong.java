@@ -5,6 +5,9 @@ public class PingPong {
 
   public List<Object> runPingPong(int countUpTo){
   	List<Object> result = new ArrayList<Object>();
+  	for(int i = 1; i <= countUpTo; i++){
+  		result.add(1);
+  	}
     return result;
   }
 }

@@ -1,5 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PingPongTest {
 
@@ -10,5 +12,4 @@ public class PingPongTest {
     expectedOutput.add(1);
     assertEquals(expectedOutput, testPingPong.runPingPong(1));
   }
-
 }
